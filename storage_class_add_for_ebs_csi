@@ -5,5 +5,5 @@ metadata:
 provisioner: ebs.csi.aws.com
 volumeBindingMode: WaitForFirstConsumer
 parameters:
-type: gp3
-fsType: ext4
+  type: gp3
+  fsType: ext4
